@@ -1,6 +1,3 @@
-
-# OverTheWire: Bandit Wargame
-
 ## What is Bandit?
 
 [Bandit](https://overthewire.org/wargames/bandit/) is the first wargame offered by OverTheWire, a platform designed to help you learn the basics of cybersecurity and Linux command-line usage through hands-on challenges.
