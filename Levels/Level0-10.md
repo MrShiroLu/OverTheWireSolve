@@ -116,5 +116,3 @@ password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 cat data.txt | strings -e s | grep ==
 ```
 password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-
-![cute kitten](https://overthewire.org/img/domokitten.png)

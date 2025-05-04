@@ -29,3 +29,5 @@ The main goal of the Bandit game is to teach you:
 - [Level 7 -> 8](Levels/Level0-10.md#Level-7---8)
 - [Level 8 -> 9](Levels/Level0-10.md#Level-8---9)
 - [Level 9 -> 10](Levels/Level0-10.md#Level-9---10)
+
+![cute kitten](https://overthewire.org/img/domokitten.png)
