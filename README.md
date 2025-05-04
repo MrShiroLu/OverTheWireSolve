@@ -9,14 +9,6 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - Permissions and users
 - SSH (Secure Shell)
 
-## Purpose of the Game
-
-The main goal of the Bandit game is to teach you:
-- How to connect to remote machines over SSH
-- How to find and read files using basic Linux commands
-- How to deal with tricky file names and permissions
-- How to think like a hacker: investigate, explore, and bypass restrictions
-
 ## Levels
 
 - [Level 0](Levels/Level0-10.md#Level-0)
