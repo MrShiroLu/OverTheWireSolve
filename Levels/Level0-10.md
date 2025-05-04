@@ -2,7 +2,7 @@
 ### Look -> ssh
 #### solve: 
 - just follow the steps on site don't be loser!
-password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+- password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Level 1 -> 2
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
@@ -13,7 +13,6 @@ ls -la
 cat ./-
 ```
 password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-
 
 ## Level 2 -> 3
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
