@@ -1,3 +1,37 @@
-[Kurulum başlığına gitmek için tıklayın](Levels/Level-0--10.md#Level-1-->-2)
-[Level 1 -> 2'ye git](Levels/Level0-10.md#level-9---10)
-[Level 1 -> 2 başlığına git](Levels/Level0-10.md#Level-1---2)
+
+# OverTheWire: Bandit Wargame
+
+## What is Bandit?
+
+[Bandit](https://overthewire.org/wargames/bandit/) is the first wargame offered by OverTheWire, a platform designed to help you learn the basics of cybersecurity and Linux command-line usage through hands-on challenges.
+
+Bandit is especially ideal for **beginners** who have little or no experience with:
+- Linux terminal
+- File system navigation
+- Basic file manipulation
+- Permissions and users
+- SSH (Secure Shell)
+
+---
+
+## Purpose of the Game
+
+The main goal of the Bandit game is to teach you:
+- How to connect to remote machines over SSH
+- How to find and read files using basic Linux commands
+- How to deal with tricky file names and permissions
+- How to think like a hacker: investigate, explore, and bypass restrictions
+
+---
+## Levels
+
+[Level 0](Levels/Level0-10.md#Level-0)
+[Level 1 -> 2](Levels/Level0-10.md#Level-1---2)
+[Level 2 -> 3](Levels/Level0-10.md#Level-2---3)
+[Level 3 -> 4](Levels/Level0-10.md#Level-3---4)
+[Level 4 -> 5](Levels/Level0-10.md#Level-4---5)
+[Level 5 -> 6](Levels/Level0-10.md#Level-5---6)
+[Level 6 -> 7](Levels/Level0-10.md#Level-6---7)
+[Level 7 -> 8](Levels/Level0-10.md#Level-7---8)
+[Level 8 -> 9](Levels/Level0-10.md#Level-8---9)
+[Level 9 -> 10](Levels/Level0-10.md#Level-9---10)
