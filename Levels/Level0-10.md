@@ -105,7 +105,7 @@ sort data.txt | uniq -u
 ```
 password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-# Level 9 -> 10
+## Level 9 -> 10
 #### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 ###### solve:
