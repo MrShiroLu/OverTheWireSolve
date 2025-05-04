@@ -1,4 +1,4 @@
-## Level 0
+# Level 0
 #### Look -> ssh
 ###### solve: 
 - just follow the steps on site don't be loser!
@@ -54,7 +54,7 @@ password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 #### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
 
 ###### solve:
-- - . : Search the current working directory only
+- . : Search the current working directory only
 - -type f : Look for files only (Exclude Directories)
 - -size 1033c : Look for files that are exactly 1033 bytes in size (Find uses “c” to represent bytes)
 - -not -executable : Find only non executable files
@@ -68,9 +68,52 @@ password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 #### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) ,[du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html), [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
 
 ###### solve: 
-- a
+- . : Search the current working directory only
+- -type f : Look for files only (Exclude Directories)
+- -size 33c : Look for files that are exactly 33 bytes in size (Find uses “c” to represent bytes)
+- -user bandit7: Find only bandit7 user files
+- -group bandit6: Find bandit6's group files
+- -not -executable : Find only non executable files
+- -exec file {} + : Execute the `file` command on all the results returns by find
 ```bash
+find . -type f -size 33c -user bandit7 -group bandit6 -not -executable -exec file {} + | grep ASCII
+
+cat (file)
 
 ```
+password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-password: 
+## Level 7 -> 8
+#### Look -> [man](https://manpages.ubuntu.com/manpages/noble/man1/man.1.html), grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+###### solve:
+- grep: Print lines that match patterns.
+
+```bash
+grep millionth data.txt
+```
+password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+## Level 8 -> 9
+#### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+###### solve: 
+- sort:
+- uniq -u:
+```bash
+sort data.txt | uniq -u
+```
+password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+# Level 9 -> 10
+#### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+###### solve:
+- cat data.txt: print **data.txt**
+- strings -e s: means look for single-byte character strings(standard ASCII).
+- grep == : Filters the output of `strings`, showing only the lines that contain `==`.
+
+```bash
+cat data.txt | strings -e s | grep ==
+```
+password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
