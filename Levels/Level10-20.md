@@ -22,11 +22,3 @@ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
-## Level 12 -> 13
-### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, file
-#### Solve:
-- a
-```bash
-
-```
-password: 
