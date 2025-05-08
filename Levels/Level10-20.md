@@ -32,7 +32,6 @@ https://mayadevbe.me/posts/overthewire/bandit/level13/
 
 ## Level 13 -> 14
 	### Look -> ssh, telnet, nc, openssl, s_client, nmap
-
 #### Solve
 - The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14**
 ```bash
