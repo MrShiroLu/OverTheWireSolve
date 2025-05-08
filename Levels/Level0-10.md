@@ -2,7 +2,7 @@
 ### Look -> ssh
 #### solve: 
 - just follow the steps on site don't be loser!
-- password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+- **password:** ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Level 1 -> 2
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
@@ -12,7 +12,7 @@
 ls -la
 cat ./-
 ```
-password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+**password:** 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ## Level 2 -> 3
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
@@ -24,7 +24,7 @@ cat spaces\ in\ this\ filename
 or
 cat "spaces in this filename"
 ```
-password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+**password:** MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 
 ## Level 3 -> 4
@@ -37,7 +37,7 @@ cd inhere/
 ls -la
 cat ...Hiding-From-You
 ```
-password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+**password:** 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ## Level 4 -> 5
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
 
@@ -47,7 +47,7 @@ password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 file ./*
 cat ./-file07
 ```
-password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+**password:** 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level 5 -> 6
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
@@ -61,7 +61,7 @@ password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```bash
 find . -type f -size 1033c -not -executable -exec file {} + | grep ASCII
 ```
-password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG 
+**password:** HWasnPhtq9AVKe0dmk45nxy20cvUa6EG 
 
 ## Level 6 -> 7
 ### Look -> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) ,[du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html), [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
@@ -80,7 +80,7 @@ find . -type f -size 33c -user bandit7 -group bandit6 -not -executable -exec fil
 cat (file)
 
 ```
-password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+**password:** morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 ## Level 7 -> 8
 ### Look -> [man](https://manpages.ubuntu.com/manpages/noble/man1/man.1.html), grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
@@ -91,7 +91,7 @@ password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```bash
 grep millionth data.txt
 ```
-password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+**password:** dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 ## Level 8 -> 9
 ### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
@@ -102,7 +102,7 @@ password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```bash
 sort data.txt | uniq -u
 ```
-password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+**password:** 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 ## Level 9 -> 10
 ### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
@@ -115,4 +115,4 @@ password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```bash
 cat data.txt | strings -e s | grep ==
 ```
-password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+**password:** FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey

@@ -24,4 +24,4 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 10 -> 11](Levels/Level10-20.md#Level-10---11)
 - [Level 11 -> 12](Levels/Level10-20.md#Level-11---12)
 
-![cute kitten](https://overthewire.org/img/domokitten.png)
+![cute kitty](https://overthewire.org/img/domokitten.png)

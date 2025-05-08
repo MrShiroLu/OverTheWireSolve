@@ -5,7 +5,7 @@
 ```bash
 base64 data.txt -d
 ```
-password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+**password:** dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 ## Level 11 -> 12
 ### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
@@ -20,5 +20,51 @@ password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 ```bash
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
-password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+**password:** 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
+## Level 12 -> 13
+### Look -> grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, file
+
+#### Solve:
+This source explains this level well
+https://mayadevbe.me/posts/overthewire/bandit/level13/
+**password:** FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+## Level 13 -> 14
+	### Look -> ssh, telnet, nc, openssl, s_client, nmap
+
+#### Solve
+- The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14**
+```bash
+ssh -i sshkey.private -p2220 bandit14@bandit.labs.overthewire.org
+```
+passwordİ: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS 
+- We don't need password in this level!
+
+## Level 14 -> 15
+### Look -> ssh, telnet, nc, openssl, s_client, nmap
+#### Solve
+- cat /etc/bandit_pass/bandit14 : This will output the password for the next level (Bandit 14), which is what you're going to use to access the next level.
+- nc local 30000: 
+	- nc : (Netcat) is a networking utility that reads and writes data across network connections using TCP or UDP
+	- local : refers to the local network (localhost), and `30000` is the port number..
+```bash
+cat /etc/bandit_pass/bandit14
+nc local 30000
+# (enter the bandit14's password)
+```
+**password:** 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+## Level 15 -> 16
+### Look -> ssh, telnet, nc, ncat, socat, openssl, s_client, nmap, netstat, ss
+#### Solve 
+- **cat /etc/bandit_pass/bandit15** : This will output the password for the next level, which is what you're going to use to access the next level.
+- **openssl**: OpenSSL command-line tool.
+	- **s_client**: Establishes an SSL/TLS connection to a server.
+	- **-connect localhost:30001**: Connects to `localhost` on port `30001`.
+```bash
+cat /etc/bandit_pass/bandit15 # actually we don't need this code 
+							  # bc we already take the password
+openssl s_client -connect localhost:30001
+```
+**password:** kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
