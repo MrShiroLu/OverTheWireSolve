@@ -30,8 +30,8 @@ This source explains this level well
 https://mayadevbe.me/posts/overthewire/bandit/level13/
 **password:** FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
-## Level 13 -> 14
-	### Look -> ssh, telnet, nc, openssl, s_client, nmap
+## Level 13 -> 14	
+### Look -> ssh, telnet, nc, openssl, s_client, nmap
 #### Solve
 - The password for the next level is stored in **/etc/bandit_pass/bandit14 and can only be read by user bandit14**
 ```bash
@@ -63,7 +63,28 @@ nc local 30000
 	- **-connect localhost:30001**: Connects to `localhost` on port `30001`.
 ```bash
 cat /etc/bandit_pass/bandit15 # actually we don't need this code 
-							  # bc we already take the password
+		# bc we already take the password
 openssl s_client -connect localhost:30001
 ```
 **password:** kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+## Level 16 -> 17
+### Look -> ssh, telnet, nc, ncat, socat, openssl, s_client, nmap, netstat, ss
+#### Solve
+-  Get the password for **bandit16**
+- Scan ports 31000-32000 on localhost to find services running on these ports
+- Connect to port 31790 on localhost using SSL/TLS
+- Create a new file `bandit_key` and paste the private key content and set correct permissions
+- SSH into bandit_key using the private key and port 2220.
+```bash
+cat /etc/bandit_pass/bandit16
+nmap -sV localhost -p 31000-32000
+openssl s_client -connect localhost:31790 -quiet
+vim bandit_key
+chmod 600 bandit_key
+ssh -i bandit_key -p 2220 bandit17@bandit.labs.overthewire.org
+# you have to write ssh key
+```
+**password:** EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
+
