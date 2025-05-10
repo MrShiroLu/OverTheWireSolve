@@ -87,4 +87,20 @@ ssh -i bandit_key -p 2220 bandit17@bandit.labs.overthewire.org
 ```
 **password:** EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 
+## Level 17 -> 18
+### Look -> cat, grep, ls, diff
+#### solve
+- a
+```bash
+diff passwords.new passwords.old -c2
+```
+**password 1**: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
+## Level 18 -> 19
+### Look -> cat, grep, ls, diff
+#### solve
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 ls
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat (readfile)
+```
+**password 2**: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
