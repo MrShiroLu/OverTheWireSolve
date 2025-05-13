@@ -1,6 +1,7 @@
 ## What is Bandit?
 
 [Bandit](https://overthewire.org/wargames/bandit/) is the first wargame offered by OverTheWire, a platform designed to help you learn the basics of cybersecurity and Linux command-line usage through hands-on challenges.
+![[buzz_lightyear.png]]
 
 Bandit is especially ideal for **beginners** who have little or no experience with:
 - Linux terminal
@@ -30,5 +31,8 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 16 -> 17](Levels/Level10-20.md#Level-16---17)
 - [Level 17 -> 18](Levels/Level10-20.md#Level-17---18)
 - [Level 18 -> 19](Levels/Level10-20.md#Level-18---19)
+- [Level 19 -> 20](Levels/Level10-20.md#Level-19---20)
+- [Level 20 -> 21](Levels/Level10-20.md#Level-20---21)
+- [Level 21 -> 22](Levels/Level10-20.md#Level-21---22)
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)

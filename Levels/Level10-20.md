@@ -110,3 +110,35 @@ ssh bandit18@bandit.labs.overthewire.org -p 2220 ls
 ssh bandit18@bandit.labs.overthewire.org -p 2220 cat (readfile)
 ```
 **password 2**: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+
+## Level 19 -> 20
+### Look -> [Setuid](https://en.wikipedia.org/wiki/Setuid), file permissions
+#### solve
+- The flags `setuid` and `setgid` are needed for tasks that require different privileges than what the user is normally granted, such as the ability to alter system files or databases to change their login password
+```bash
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+**password**: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+
+## Level 20 -> 21
+### Look -> ssh, nc, cat, bash, screen, tmux, Unix ‘job control’ (bg, fg, jobs, &, CTRL-Z, …)
+#### Solve
+```bash
+echo -n 'GbKksEFF4yrVs6il55v6gwY5aVje5f0j' | nc -l -p 1234 &
+./suconnect 1234
+```
+**password**: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+## Level 21 -> 22
+### Look -> cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+#### Solve
+```bash
+cd /etc/cron.d/
+ls
+cat cronjob_bandit22
+cat /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+**password**: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
