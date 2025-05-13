@@ -27,8 +27,8 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 13 -> 14](Levels/Level10-20.md#Level-13---14)
 - [Level 14 -> 15](Levels/Level10-20.md#Level-14---15)
 - [Level 15 -> 16](Levels/Level10-20.md#Level-15---16)
-- [Level 15 -> 16](Levels/Level10-20.md#Level-16---17)
-- [Level 15 -> 16](Levels/Level10-20.md#Level-17---18)
-- [Level 15 -> 16](Levels/Level10-20.md#Level-18---19)
+- [Level 16 -> 17](Levels/Level10-20.md#Level-16---17)
+- [Level 17 -> 18](Levels/Level10-20.md#Level-17---18)
+- [Level 18 -> 19](Levels/Level10-20.md#Level-18---19)
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)
