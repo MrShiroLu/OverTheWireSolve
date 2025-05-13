@@ -37,7 +37,7 @@ https://mayadevbe.me/posts/overthewire/bandit/level13/
 ```bash
 ssh -i sshkey.private -p2220 bandit14@bandit.labs.overthewire.org
 ```
-passwordİ: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS 
+**password**: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS 
 - We don't need password in this level!
 
 ## Level 14 -> 15
@@ -90,7 +90,8 @@ ssh -i bandit_key -p 2220 bandit17@bandit.labs.overthewire.org
 ## Level 17 -> 18
 ### Look -> cat, grep, ls, diff
 #### solve
-- a
+- diff : compare files line by line
+- -c : output NUM (default 3) lines of copied context
 ```bash
 diff passwords.new passwords.old -c2
 ```
@@ -99,6 +100,11 @@ diff passwords.new passwords.old -c2
 ## Level 18 -> 19
 ### Look -> cat, grep, ls, diff
 #### solve
+- SSH lets you control a remote machine as if you were sitting in front of it.
+	- After connecting, you're essentially using Bash (a shell) on the server.
+	- You can run any command available to that user (`bandit18`) on the remote system
+- Once connected, you're inside a **Bash shell on the remote machine**.
+	- You can run standard Linux commands
 ```bash
 ssh bandit18@bandit.labs.overthewire.org -p 2220 ls
 ssh bandit18@bandit.labs.overthewire.org -p 2220 cat (readfile)
