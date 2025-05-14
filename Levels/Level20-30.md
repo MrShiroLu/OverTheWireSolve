@@ -13,9 +13,20 @@ echo -n 'GbKksEFF4yrVs6il55v6gwY5aVje5f0j' | nc -l -p 1234 &
 #### Solve
 ```bash
 cd /etc/cron.d/
-ls
 cat cronjob_bandit22
 cat /usr/bin/cronjob_bandit22.sh
 cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
 **password**: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+## Level 22 -> 23
+### Look -> cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+#### Solve
+```bash
+cd /etc/cron.d/
+cat cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+cat /tmp/ #(write echo's result)
+```
+**password**: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
