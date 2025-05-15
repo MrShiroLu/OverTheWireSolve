@@ -30,3 +30,22 @@ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
 cat /tmp/ #(write echo's result)
 ```
 **password**: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+## Level 23 -> 24
+### Look -> cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+#### Solve
+```bash
+mkdir /tmp/bnd
+cd /tmp/bnd
+vim bandit_pass.sh
+	#!/bin/bash
+	cat /etc/bandit_pass/bandit24 > /tmp/bnd/password
+chmod 777 bandit_pass.sh
+touch password
+chmod 777 password
+chmod 777 .
+cp bandit_pass.sh /var/spooll/bandit24/foo
+cat password
+# you need to wait for a minute and read the password file
+```
+**password**: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
