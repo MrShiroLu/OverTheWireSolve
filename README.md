@@ -8,6 +8,7 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - Basic file manipulation
 - Permissions and users
 - SSH (Secure Shell)
+- Bash Scripting
 
 ## Levels
 
@@ -35,5 +36,6 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 21 -> 22](Levels/Level20-30.md#Level-21---22)
 - [Level 22 -> 23](Levels/Level20-30.md#Level-22---23)
 - [Level 23 -> 24](Levels/Level20-30.md#Level-23---24)
+- [Level 24 -> 25](Levels/Level20-30.md#Level-24---25)
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)
