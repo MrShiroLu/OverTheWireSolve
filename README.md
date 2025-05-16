@@ -40,4 +40,4 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)
 
-![KISS](https://www.google.com/url?sa=i&url=https%3A%2F%2Fenesgur.com.tr%2Fkiss-keep-it-simple-stupid-prensibi%2F&psig=AOvVaw1GmdzWuTpbsoKd8gz0MKtW&ust=1747482978572000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDN1sP3p40DFQAAAAAdAAAAABAE)
+![KISS](https://miro.medium.com/v2/resize:fit:2880/1*0P7J9wPkjpOsBVLQsPzUSA.jpeg)
