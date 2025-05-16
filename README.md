@@ -12,7 +12,7 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 
 ## Levels
 
-- [Level 0](Levels/Level0-10.md#Level-0)
+- [Level 0 -> 1](Levels/Level0-10.md#Level-0)
 - [Level 1 -> 2](Levels/Level0-10.md#Level-1---2)
 - [Level 2 -> 3](Levels/Level0-10.md#Level-2---3)
 - [Level 3 -> 4](Levels/Level0-10.md#Level-3---4)
@@ -39,3 +39,5 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 24 -> 25](Levels/Level20-30.md#Level-24---25)
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)
+
+![KISS](https://www.google.com/url?sa=i&url=https%3A%2F%2Fenesgur.com.tr%2Fkiss-keep-it-simple-stupid-prensibi%2F&psig=AOvVaw1GmdzWuTpbsoKd8gz0MKtW&ust=1747482978572000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDN1sP3p40DFQAAAAAdAAAAABAE)
