@@ -64,15 +64,32 @@ vim bandit_pass.sh
 	        echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i"              
 	done | nc localhost 30002 > password
 	cat password | grep -v "wrong"
+chmod +rwx bandit_pass.sh
+./bandit_pass.sh
 ```
 **password**: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 ## Level 25 -> 26
 ### Look -> ssh, cat, more, vi, ls, id, pwd
 #### Solve
-- a
-``` bash
-
+- Read
+	- https://www.geeksforgeeks.org/more-command-in-linux-with-examples/
+```bash
+ssh -i bandit26.sshkey -p 2220 bandit26@bandit.labs.overthewire.org
+#(you have to resize your window until see more command)
+#understand how more command works
+	:set shell=/bin/bash
+	:sh
 ```
+**password**: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 
-**password**: 
+## Level 26 -> 27
+### Look ->  ls
+#### Solve
+- look bandit27-do permissions and understand what should you do!
+	- IT'S SO EASY DON'T BE LAZY
+```bash
+ls -la
+./bandit27-do cat /etc/bandit_pass/bandit27
+```
+**password**: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
