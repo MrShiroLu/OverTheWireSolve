@@ -93,3 +93,31 @@ ls -la
 ./bandit27-do cat /etc/bandit_pass/bandit27
 ```
 **password**: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+
+## Level 27 -> 28
+### Look ->  git
+#### Solve
+```bash
+mkdir /tmp/bandit_27git
+cd /tmp/bandit_27git
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+cd repo
+cat README
+```
+**password**: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+
+## Level 28 -> 29
+### Look ->  git
+#### Solve
+- a
+```bash
+mkdir /tmp/bandit_28git
+cd /tmp/bandit_28git
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+cd repo
+git log
+git show 674690a00a0056ab96048f7317b9ec20c057c06b
+```
+**password**: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
