@@ -121,3 +121,15 @@ git log
 git show 674690a00a0056ab96048f7317b9ec20c057c06b
 ```
 **password**: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+## Level 29 -> 30
+### Look ->  git, git show
+#### Solve
+```bash
+mkdir /tmp/bandit_29git
+cd /tmp/bandit_29git
+git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+cd repo
+git show origin/dev
+```
+**password**: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL

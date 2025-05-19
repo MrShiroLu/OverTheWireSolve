@@ -39,6 +39,9 @@ Bandit is especially ideal for **beginners** who have little or no experience wi
 - [Level 24 -> 25](Levels/Level20-30.md#Level-24---25)
 - [Level 25 -> 26](Levels/Level20-30.md#Level-25---26)
 - [Level 26 -> 27](Levels/Level20-30.md#Level-26---27)
+- [Level 27 -> 28](Levels/Level20-30.md#Level-27---28)
+- [Level 28 -> 29](Levels/Level20-30.md#Level-28---29)
+- [Level 29 -> 30](Levels/Level20-30.md#Level-29---30)
 
 ![cute kitty](https://overthewire.org/img/domokitten.png)
 
