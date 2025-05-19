@@ -131,6 +131,61 @@ mkdir /tmp/bandit_29git
 cd /tmp/bandit_29git
 git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
 cd repo
+git log
 git show origin/dev
 ```
 **password**: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+
+## Level 30 -> 31
+### Look ->  git, git show
+#### Solve
+* Understand git show and log command
+```bash
+mkdir /tmp/bandit_30git
+cd /tmp/bandit_30git
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+cd repo
+git log
+git show secret
+```
+**password**: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+## Level 31 -> 32
+### Look ->  git, git show
+#### Solve
+- Look git pus and commands
+```bash
+mkdir /tmp/bandit_31git
+cd /tmp/bandit_31git
+git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+cd repo
+cat README.md
+touch key.txt
+echo "May I come in?" > key.txt
+git add -f key.txt
+git commit -m "Add key.txt"
+git push -u ssh://localho
+st:2220/home/bandit31-git/repo
+git push -u origin master
+```
+**password**: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+## Level 32 -> 33
+### Look ->  
+#### Solve
+```bash
+$0
+whoami
+cat /etc/bandit_pass/bandit33
+```
+**password**: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+
+## Level 33 -> 34
+### Look ->  
+#### Solve
+```
+cat README.md
+```
+**password**: 
+![BANDIT](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGhJfJKcIm-IwySvEHAidC0QFCMcmK4OjbmA&s)
