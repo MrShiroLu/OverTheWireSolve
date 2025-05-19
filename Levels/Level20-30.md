@@ -111,7 +111,7 @@ cat README
 ## Level 28 -> 29
 ### Look ->  git
 #### Solve
-- a
+- look git show and log commands
 ```bash
 mkdir /tmp/bandit_28git
 cd /tmp/bandit_28git
@@ -125,6 +125,7 @@ git show 674690a00a0056ab96048f7317b9ec20c057c06b
 ## Level 29 -> 30
 ### Look ->  git, git show
 #### Solve
+- look git show and log commands
 ```bash
 mkdir /tmp/bandit_29git
 cd /tmp/bandit_29git
