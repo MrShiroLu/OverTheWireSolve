@@ -6,7 +6,7 @@
 
 | Bandit Level                                         | Krypton Level                                       |     |
 | ---------------------------------------------------- | --------------------------------------------------- | --- |
-| [Level 0 -> 1](Bandit/Level0-10.md#Level-0)          | [Level 0 -> 1](Krypton/Level0-7.md#Level-0---1)     |     |
+| [Level 0 -> 1](Bandit/Level0-10.md#Level-0---1)      | [Level 0 -> 1](Krypton/Level0-7.md#Level-0---1)     |     |
 | [Level 1 -> 2](Bandit/Level0-10.md#Level-1---2)      | [Level 1 -> 2](Krypton/Level0-7.md#Level-1---2)<br> |     |
 | [Level 2 -> 3](Bandit/Level0-10.md#Level-2---3)      | [Level 2 -> 3](Krypton/Level0-7.md#Level-2---3)<br> |     |
 | [Level 3 -> 4](Bandit/Level0-10.md#Level-3---4)      | [Level 3 -> 4](Krypton/Level0-7.md#Level-3---4)<br> |     |

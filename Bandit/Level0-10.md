@@ -1,4 +1,15 @@
-## Level 0
+## What is Bandit
+[Bandit](https://overthewire.org/wargames/bandit/) is the first wargame offered by OverTheWire, a platform designed to help you learn the basics of cybersecurity and Linux command-line usage through hands-on challenges.
+
+Bandit is especially ideal for **beginners** who have little or no experience with:
+- Linux terminal
+- File system navigation
+- Basic file manipulation
+- Permissions and users
+- SSH (Secure Shell)
+- Bash Scripting
+
+## Level 0 -> 1
 ### Look -> ssh
 #### solve: 
 - just follow the steps on site don't be loser!
