@@ -9,28 +9,34 @@
 - Understanding historical encryption methods
 - Applying logic and problem-solving to break ciphers
 ## Level 0 -> 1
-### Look -> 
-#### Solve
+### Look -> base64
+#### Solve 
+- you can use decoder [websites](https://www.base64decode.org/)
 ```bash
-
+vim decode.txt
+	S1JZUFRPTklTR1JFQVQ=
+base64 --decode decode.txt
 ```
-**password**: 
+**password**: KRYPTONISGREAT
 
 ## Level 1 -> 2
-### Look -> 
+### Look -> tr, rot encryption
 #### Solve
 ```bash
-
+cd /krypton/krypton1
+cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
-**password**: 
+**password**: LEVEL TWO PASSWORD ---> ROTTEN
 
 ## Level 2 -> 3
 ### Look -> 
 #### Solve
+- A to M (1 -> 13) it's being the 13th character
+- 26 - 12 = 14
 ```bash
-
+cat krypton3 | tr 'A-Za-z' 'O-ZA-No-za-n'
 ```
-**password**: 
+**password**: CAESARISEASY
 
 ## Level 3 -> 4
 ### Look -> 
