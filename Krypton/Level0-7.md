@@ -11,7 +11,7 @@
 ## Level 0 -> 1
 ### Look -> base64
 #### Solve 
-- you can use decoder [websites](https://www.base64decode.org/)
+- you can use decoder [website](https://www.base64decode.org/)
 ```bash
 vim decode.txt
 	S1JZUFRPTklTR1JFQVQ=
@@ -39,12 +39,14 @@ cat krypton3 | tr 'A-Za-z' 'O-ZA-No-za-n'
 **password**: CAESARISEASY
 
 ## Level 3 -> 4
-### Look -> 
+### Look -> Frequency Analysis ,  Substitution Cipher
 #### Solve
+- look for information this [site](https://www.101computing.net/frequency-analysis/)
 ```bash
-
+cd /krypton/krypton3
+for i in {A..Z}; do cat found1 found2 found3 | tr -cd $i | wc -c | tr -d '\n'; printf " $i \n"; done | sort -nr
 ```
-**password**: 
+**password**: BRUTE
 
 ## Level 4 -> 5
 ### Look -> 
