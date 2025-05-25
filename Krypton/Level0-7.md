@@ -48,14 +48,15 @@ for i in {A..Z}; do cat found1 found2 found3 | tr -cd $i | wc -c | tr -d '\n'; p
 ```
 **password**: BRUTE
 
+
 ## Level 4 -> 5
 ### Look -> 
 #### Solve
-```bash
-
-```
-**password**: 
-
+- StackOverflow has nice explanation of how to solve this problem -> [site](has a very nice explanation of how to solve this problem)
+- use for decrypt https://www.dcode.fr/vigenere-cipher
+	- set decryption method  `Knowing the key-length/size, number of letters` set 6
+	- click decrypt
+**password**: FREKEY
 ## Level 5 -> 6
 ### Look -> 
 #### Solve
