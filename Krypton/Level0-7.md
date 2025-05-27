@@ -48,7 +48,6 @@ for i in {A..Z}; do cat found1 found2 found3 | tr -cd $i | wc -c | tr -d '\n'; p
 ```
 **password**: BRUTE
 
-
 ## Level 4 -> 5
 ### Look -> 
 #### Solve
@@ -56,14 +55,14 @@ for i in {A..Z}; do cat found1 found2 found3 | tr -cd $i | wc -c | tr -d '\n'; p
 - use for decrypt https://www.dcode.fr/vigenere-cipher
 	- set decryption method  `Knowing the key-length/size, number of letters` set 6
 	- click decrypt
-**password**: FREKEY
+-  you will see CLEAR TEXT but it's not true password don't want gap
+**password**: CLEARTEXT
 ## Level 5 -> 6
 ### Look -> 
 #### Solve
-```bash
-
-```
-**password**: 
+- similar with level 5 bu we don't know key length
+- should we look all key possibilitys
+**password**: RANDOM
 
 ## Level 6 -> 7
 ### Look -> 
