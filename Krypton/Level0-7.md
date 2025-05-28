@@ -23,6 +23,15 @@ base64 --decode decode.txt
 ### Look -> tr, rot encryption
 #### Solve
 ```bash
+mktemp -d
+cd # temp file
+ln -s /krypton/krypton2/keyfile.dat
+chmod 777 .
+
+echo "AAAAA" > encrypt.txt
+/krypton/krypton2/encrypt encrypt.txt 
+# you can understand the alpabet gap
+
 cd /krypton/krypton1
 cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
@@ -40,7 +49,7 @@ cat krypton3 | tr 'A-Za-z' 'O-ZA-No-za-n'
 
 ## Level 3 -> 4
 ### Look -> Frequency Analysis ,  Substitution Cipher
-#### Solve
+#### Solve 
 - look for information this [site](https://www.101computing.net/frequency-analysis/)
 ```bash
 cd /krypton/krypton3
@@ -61,7 +70,7 @@ for i in {A..Z}; do cat found1 found2 found3 | tr -cd $i | wc -c | tr -d '\n'; p
 ### Look -> 
 #### Solve
 - similar with level 5 bu we don't know key length
-- should we look all key possibilitys
+- should we look all key possibilities
 **password**: RANDOM
 
 ## Level 6 -> 7
